@@ -1,0 +1,31 @@
+{"CLOTHES ON SALE IN 'RESERVED' SHOP":
+           [{"type": "t-shirt with print",
+		     "gender": "female",
+		     "sizes": "XS,S,M,L",
+		     "previous.price": "199 UAH",
+		     "actual.price": "129 UAH"},
+			 
+		    {"type": "denim shorts",
+			 "gender": "female",
+		     "sizes": "34,36,38,42",
+		     "previous.price": "599 UAH",
+		     "actual.price": "299 UAH"},
+
+			{"type": "blouse",
+			 "gender": "female",
+		     "sizes": "34,36,38,40,42",
+		     "previous.price": "499 UAH",
+             "actual.price": "199 UAH"},
+			 
+			 {"type": "denim jacket oversize",
+			 "gender": "male",
+		     "sizes": "S/M",
+		     "previous.price": "1799 UAH",
+             "actual.price": "799 UAH"},
+			 
+			 {"type": "classical shorts",
+			 "gender": "male",
+		     "sizes": "31,32",
+		     "previous.price": "1099 UAH",
+             "actual.price": "199 UAH"}]
+}

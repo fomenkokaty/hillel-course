@@ -1,0 +1,89 @@
+<homework>
+      <FAMILY>
+         <relation> father </relation>
+		 <name> Andrey </name>
+		 <age> 53 </age>
+		 
+		 <relation> mother </relation>
+		 <name> Victoria </name>
+		 <age> 46 </age>
+		 
+		 <relation> sister </relation>
+		 <name> Olya </name>
+		 <age> 25 </age>
+		 
+		 <relation> brother </relation>
+		 <name> Bogdan </name>
+		 <age> 16 </age>
+	  </FAMILY>
+	  
+	  <TOPFILMS>
+	     <title> The Shawshank Redemption </title>
+		 <year> 1994 </year>
+		 <producer> Frank Darabont </producer>
+		 
+		 <title> The Godfather </title>
+		 <year> 1972 </year>
+		 <producer> Francis Ford Coppola </producer>
+		 
+		 <title> The Godfather Part 2 </title>
+		 <year> 1974 </year>
+		 <producer> Francis Ford Coppola </producer>
+	   </TOPFILMS>
+	  
+	  <BOXES>
+	     <weight> up to 1 kg </weight>
+		 <length> 24 cm </length>
+		 <wight> 17 cm </wight>
+		 <height> 10 cm </height>
+		 <price> 9 UAH </price>
+		 
+		 <weight> up to 15 kg </weight>
+		 <length> 60 cm </length>
+		 <wight> 35 cm </wight>
+		 <height> 28.5 cm </height>
+		 <price> 28 UAH </price>
+		 
+		 <weight> up to 30 kg </weight>
+		 <length> 70 cm </length>
+		 <wight> 40 cm </wight>
+		 <height> 43 cm </height>
+		 <price> 40 UAH </price>
+	  </BOXES>
+	  
+	  <CLOTHES>
+	     <type> t-shirt with print </type>
+		 <sizes> XS,S,M,L </sizes>
+		 <previous.price> 199 UAH </previous.price>
+		 <actual.price> 129 UAH </actual.price>
+		 
+		 <type> denim shorts </type>
+		 <sizes> 34,36,38,42 </sizes>
+		 <previous.price> 599 UAH </previous.price>
+		 <actual.price> 299 UAH </actual.price>
+		 
+		 <type> blouse </type>
+		 <sizes> 34,36,38,40,42 </sizes>
+		 <previous.price> 499 UAH </previous.price>
+		 <actual.price> 199 UAH </actual.price>
+	   </CLOTHES>
+	
+	  <TRAINING>
+	     <exercise> push ups </exercise>
+		 <repeats> 10 </repeats>
+		 <rounds> 3 </rounds>
+		 <rest> 40 sec </rest>
+		 
+		 <exercise> squats </exercise>
+		 <repeats> 15 </repeats>
+		 <rounds> 3 </rounds>
+		 <rest> 60 sec </rest>
+		 
+		 <exercise> forward lunges </exercise>
+		 <repeats> 20 </repeats>
+		 <rounds> 2 </rounds>
+		 <rest> 45 sec </rest>
+	   </TRAINING>
+	   
+</homework>
+
