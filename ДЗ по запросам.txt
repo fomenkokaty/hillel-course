@@ -1,0 +1,12 @@
+GET http://151.80.70.42:3000/api/users - получение списка всех юзеров
+POST http://151.80.70.42:3000/api/users - создание нового юзера
+DELETE http://151.80.70.42:3000/api/users/93 - удаление юзера
+PUT http://151.80.70.42:3000/api/users/5 - изменения в профиле
+GET http://151.80.70.42:3000/api/users/refreshAdmins - при добавлении нового юзера с ролью "Админ"
+
+
+curl -v http://151.80.70.42:3000/api/users - получение списка всех юзеров
+curl -v -X POST -d "{\"name\":\"Vasya\",\"phone\":\"80993349002\",\"role\":\"Student\"}" -H "Content-type: application/json" http://151.80.70.42:3000/api/users - создание
+curl -v -X DELETE -d "{\"id\":99,\"name\":\"Vasya\",\"phone\":\"80993349002\",\"role\":\"Student\"}" -H "Content-type: application/json" http://151.80.70.42:3000/api/users/99 - удаление
+curl -v -X PUT -d "{\"name\":\"Petya\",\"phone\":\"80993349002\",\"role\":\"Student\",\"id\":99}" -H "content-type: application/json" http://151.80.70.42:3000/api/users/99 - изменения
+curl -v http://151.80.70.42:3000/api/users/refreshAdmins
